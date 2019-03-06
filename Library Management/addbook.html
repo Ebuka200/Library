@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="flickity/flickity.css">
+    <script type="text/javascript" src="flickity/flickity.js"></script>
+    <title>Library Management</title>
+</head>
+<body>
+
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example">
+                    <span class="sr-only">:</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SheddyBen Lib-BookSys</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="admin.html">Home</a></li>
+                    <li><a href="adduser.html">Add User</a></li>
+                    <li><a href="bookstable.html">Books</a></li>
+                    <li><a href="users.html">Users</a></li>
+                    <li><a href="addmembers.html">Add Members</a></li>
+                    <li><a href="lendbook.html">Lend Book</a></li>
+                    <li><a href="burrowedbooks.html">Burrowed books</a></li>
+                    <li><a href="fines.html">Fines</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="loginForm.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container  col-lg-9 col-md-11 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-0 col-xs-offset-0  " style="margin-top: 20px">
+        <div class="jumbotron login2 col-lg-10 col-md-11 col-sm-12 col-xs-12">
+            <div class="alert alert-warning alert-dismissable" style="margin-top: 15px">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  <strong>New Book has been added</strong> 
+            </div>
+
+            <p class="page-header" style="text-align: center">ADD BOOK</p>
+
+            <div class="container">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="Username" class="col-sm-2 control-label">TITLE</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="title" placeholder="Enter Title" id="username">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">EDITION</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="password" placeholder="Enter Edition" id="password">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">ISBN</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="password" placeholder="Enter ISBN" id="password">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">SECTION</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="password" placeholder="Enter Section" id="password">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">IMAGE</label>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control" name="password" placeholder="Enter image" id="password" style="padding: 0">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">CAT ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="password" placeholder="Enter CAT ID" id="password">
+                        </div>      
+                    </div>
+                    <div class="form-group">
+                        <label for="Password" class="col-sm-2 control-label">PB ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" name="password" placeholder="Enter PB ID" id="password">
+                        </div>      
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button  class="btn btn-info col-lg-12" data-toggle="modal" data-target="#info">
+                                ADD BOOK
+                            </button>
+                            
+                        </div>
+                    </div>
+
+                    
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+    
+</script>
+</body>
+</html>
